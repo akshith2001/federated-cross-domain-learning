@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Federated Cross-Domain Learning"
+abstract: "Does FedAvg across heterogeneous domains (credit-risk classification + electricity forecasting) help, hurt, or leave per-domain performance unchanged? A cross-domain federation evaluation showing asymmetric effects that cannot be summarised by a single aggregate metric."
+authors:
+  - family-names: Moharampudi
+    given-names: Akshith
+    orcid: "https://orcid.org/0009-0009-3177-8492"
+repository-code: "https://github.com/akshith2001/federated-cross-domain-learning"
+license: MIT
+version: "0.1.0"
+date-released: "2026-09-15"
+keywords:
+  - federated learning
+  - heterogeneous domains
+  - trustworthy AI
+  - cross-domain evaluation
+  - FedAvg
+  - responsible AI
+references:
+  - type: software
+    title: "TrustLens AI"
+    authors:
+      - family-names: Moharampudi
+        given-names: Akshith
+        orcid: "https://orcid.org/0009-0009-3177-8492"
+    repository-code: "https://github.com/akshith2001/trustlens-ai"
+    doi: "10.5281/zenodo.22664688"
+  - type: software
+    title: "Hospitality Sustainability AI"
+    authors:
+      - family-names: Moharampudi
+        given-names: Akshith
+        orcid: "https://orcid.org/0009-0009-3177-8492"
+    repository-code: "https://github.com/akshith2001/hospitality-sustainability-ai"
+    doi: "10.5281/zenodo.22664937"
+  - type: software
+    title: "Cross-Domain Robustness Synthesis"
+    authors:
+      - family-names: Moharampudi
+        given-names: Akshith
+        orcid: "https://orcid.org/0009-0009-3177-8492"
+    repository-code: "https://github.com/akshith2001/cross-domain-robustness-synthesis"
+    doi: "10.5281/zenodo.22777883"
