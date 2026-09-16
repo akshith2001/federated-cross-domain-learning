@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "federated-cross-domain-learning"
+version = "0.1.0"
+description = "Does FedAvg across heterogeneous domains help, hurt, or leave per-domain performance unchanged? A cross-domain federation evaluation using TrustLens AI and Hospitality Sustainability AI baselines."
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "scikit-learn>=1.2",
+]
+
+[project.scripts]
+federated-eval = "src.evaluate_federation:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
